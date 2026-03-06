@@ -185,10 +185,14 @@ main {
   align-items: end;
   box-shadow: var(--shadow);
   border: 1px solid rgba(255,255,255,0.06);
+
   background:
-    linear-gradient(180deg, rgba(6,10,18,0.15), rgba(6,10,18,0.68)),
-    radial-gradient(circle at 70% 30%, rgba(255,255,255,0.08), transparent 24%),
-    linear-gradient(120deg, #14191f 0%, #24211c 32%, #5f5b58 55%, #4d463e 75%, #1a1820 100%);
+    linear-gradient(180deg, rgba(6,10,18,0.25), rgba(6,10,18,0.80)),
+    radial-gradient(circle at 70% 30%, rgba(255,255,255,0.05), transparent 24%),
+    url("../assets/images/workshop.jpg");
+
+  background-size: cover;
+  background-position: center;
 }
 
 .hero::before {
@@ -198,6 +202,14 @@ main {
   background:
     linear-gradient(90deg, rgba(0,0,0,0.48), transparent 35%, rgba(255,255,255,0.04) 60%, transparent 68%),
     linear-gradient(180deg, transparent 35%, rgba(0,0,0,0.42));
+  pointer-events: none;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0,0,0,0.55), rgba(0,0,0,0.1));
   pointer-events: none;
 }
 

@@ -33,6 +33,10 @@ body {
 }
 
 a { color: inherit; text-decoration: none; }
+.content-page a {
+  color: var(--cyan);
+  text-decoration: underline;
+}
 img { max-width: 100%; display: block; }
 button, input, textarea { font: inherit; }
 

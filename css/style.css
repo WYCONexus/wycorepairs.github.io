@@ -106,7 +106,7 @@ button, input, textarea { font: inherit; }
   margin-top: 4px;
   font-size: 0.75rem;
   letter-spacing: 0.18em;
-  color: var(--green);
+  color: var(--cyan);
 }
 
 .nav-links {

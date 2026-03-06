@@ -233,8 +233,17 @@ main {
 .hero h1 {
   margin: 16px 0 12px;
   font-size: clamp(2.8rem, 6vw, 5.8rem);
-  line-height: 0.95;
+  line-height: 0.9;
   letter-spacing: -0.05em;
+}
+
+.hero-outcome {
+  display: block;
+  text-align: center;
+
+  background: linear-gradient(90deg, var(--cyan), var(--blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero p {

@@ -273,6 +273,7 @@ main {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hero-panel,
@@ -286,6 +287,12 @@ main {
 .hero-panel {
   align-self: end;
   padding: 22px;
+}
+
+.hero-sub {
+  text-align: center;
+  max-width: 600px;
+  margin-top: 18px;
 }
 
 .meta-list {

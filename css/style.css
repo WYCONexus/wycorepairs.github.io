@@ -106,7 +106,9 @@ button, input, textarea { font: inherit; }
   margin-top: 4px;
   font-size: 0.75rem;
   letter-spacing: 0.18em;
-  color: var(--cyan);
+  background: linear-gradient(90deg, var(--cyan), var(--blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-links {

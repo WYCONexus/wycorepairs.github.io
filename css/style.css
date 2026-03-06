@@ -237,13 +237,15 @@ main {
   letter-spacing: -0.05em;
 }
 
-.hero-outcome {
-  display: block;
-  text-align: center;
-
+.hero-title {
   background: linear-gradient(90deg, var(--cyan), var(--blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.hero-outcome {
+  display: block;
+  text-align: center;
 }
 
 .hero p {

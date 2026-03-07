@@ -396,17 +396,17 @@ section {
 
 .gradient-text {
   display: block;
-  width: 100%;
   margin-top: 6px;
-  text-align: left;
-  line-height: 1.05;
 
   background: linear-gradient(
     90deg,
-    var(--cyan) 0%,
-    var(--blue) 45%,
+    #f2f7ff 0%,
+    var(--cyan) 35%,
+    var(--blue) 65%,
     var(--violet) 100%
   );
+
+  background-size: 150% auto;
 
   -webkit-background-clip: text;
   background-clip: text;

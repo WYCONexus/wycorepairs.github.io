@@ -381,8 +381,8 @@ section {
 
 .gradient-text {
   display: block;
-
-  background: linear-gradient(90deg, var(--cyan), var(--blue));
+  margin-top: 6px;
+  background: linear-gradient(90deg, var(--cyan), var(--blue), var(--violet));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

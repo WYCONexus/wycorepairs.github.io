@@ -396,12 +396,25 @@ section {
 
 .gradient-text {
   display: block;
+  width: 100%;
   margin-top: 6px;
-  background: linear-gradient(90deg, var(--cyan), var(--blue), var(--violet));
+  text-align: left;
+  line-height: 1.05;
+
+  background: linear-gradient(
+    90deg,
+    var(--cyan) 0%,
+    var(--blue) 45%,
+    var(--violet) 100%
+  );
+
   -webkit-background-clip: text;
+  background-clip: text;
+
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
-/* WYCO gradient text utility */
+
 .gradient-wyco {
   background: linear-gradient(
     90deg,

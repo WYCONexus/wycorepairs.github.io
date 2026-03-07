@@ -406,8 +406,6 @@ section {
     var(--violet) 100%
   );
 
-  background-size: 150% auto;
-
   -webkit-background-clip: text;
   background-clip: text;
 

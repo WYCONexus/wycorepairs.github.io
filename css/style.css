@@ -177,22 +177,11 @@ button, input, textarea { font: inherit; }
 }
 
 .cta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  min-height: 48px;
-  padding: 0 18px;
-  border-radius: 999px;
-  border: 1px solid transparent;
-
   background: linear-gradient(135deg, var(--cyan), #92fff3);
   color: #041014 !important;
 
   box-shadow: 0 10px 30px rgba(69, 230, 216, 0.25);
   font-weight: 700;
-
-  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 
 .button-secondary {

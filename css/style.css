@@ -396,6 +396,22 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* WYCO gradient text utility */
+.gradient-wyco {
+  background: linear-gradient(
+    90deg,
+    var(--cyan) 0%,
+    var(--blue) 45%,
+    var(--violet) 100%
+  );
+  background-size: 200% auto;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
 
 .grid-3,
 .grid-2,

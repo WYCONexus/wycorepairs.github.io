@@ -48,33 +48,25 @@ button, input, textarea { font: inherit; }
 
 /* Contact icons */
 
-.contact-icons {
-  display: flex;
-  gap: 14px;
-  margin-top: 14px;
-}
-
-.contact-icon {
-  width: 52px;
-  height: 52px;
+.contact-link {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 14px;
+  gap: 10px;
+  color: var(--text);
   text-decoration: none;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
-  transition: transform 0.18s ease;
+  transition: color 0.18s ease, transform 0.18s ease;
 }
 
-.contact-icon:hover {
-  transform: translateY(-2px);
+.contact-link:hover {
+  color: var(--cyan);
+  transform: translateY(-1px);
 }
 
-.contact-icon svg {
-  width: 24px;
-  height: 24px;
-  stroke: #45E6D8;
+.contact-link .contact-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  stroke: var(--cyan);
   stroke-width: 2;
   fill: none;
 }

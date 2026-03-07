@@ -397,13 +397,14 @@ section {
 .gradient-text {
   display: block;
   margin-top: 6px;
+  line-height: 1.05;
 
   background: linear-gradient(
     90deg,
     #f2f7ff 0%,
-    var(--cyan) 35%,
-    var(--blue) 65%,
-    var(--violet) 100%
+    var(--cyan) 25%,
+    var(--blue) 50%,
+    var(--violet) 75%
   );
 
   -webkit-background-clip: text;

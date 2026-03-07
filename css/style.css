@@ -545,6 +545,11 @@ section {
   margin-bottom: 0;
 }
 
+.notice p::before {
+  content: "• ";
+  color: var(--cyan);
+}
+
 .table-like {
   display: grid;
   gap: 14px;

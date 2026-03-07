@@ -68,6 +68,30 @@ button, input, textarea { font: inherit; }
   min-height: 78px;
 }
 
+.menu-toggle {
+  display: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(16,23,45,0.55);
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-toggle span {
+  width: 18px;
+  height: 2px;
+  background: var(--soft);
+  border-radius: 2px;
+  display: block;
+}
+
 .brand {
   display: flex;
   align-items: center;
@@ -533,10 +557,40 @@ section {
 }
 
 @media (max-width: 720px) {
+  .menu-toggle {
+    display: flex;
+  }
+
   .nav-shell {
+    position: relative;
     padding: 12px 0;
-    align-items: start;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    left: 0;
+
+    display: none;
     flex-direction: column;
+    gap: 14px;
+
+    padding: 20px;
+
+    background: linear-gradient(
+      180deg,
+      rgba(17, 24, 44, 0.95),
+      rgba(11, 17, 32, 0.95)
+    );
+
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: var(--shadow);
+  }
+
+  .nav-links.active {
+    display: flex;
   }
 
   .hero {

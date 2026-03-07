@@ -537,6 +537,14 @@ section {
   box-shadow: 0 10px 40px rgba(0,0,0,0.35);
 }
 
+.notice p {
+  margin: 0 0 12px 0;
+}
+
+.notice p:last-child {
+  margin-bottom: 0;
+}
+
 .table-like {
   display: grid;
   gap: 14px;

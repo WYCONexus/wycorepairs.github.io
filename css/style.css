@@ -538,6 +538,26 @@ section {
   line-height: 1.8;
 }
 
+.about-text {
+  max-width: 720px;
+}
+
+.about-text ul {
+  padding-left: 1.25rem;
+}
+
+.about-text li + li {
+  margin-top: 8px;
+}
+
+.about-text h2 {
+  margin-top: 34px;
+}
+
+.about-text p + p {
+  margin-top: 16px;
+}
+
 .notice {
   padding: 18px 20px;
   border-radius: 18px;
